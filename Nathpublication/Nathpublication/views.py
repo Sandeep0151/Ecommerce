@@ -352,7 +352,6 @@ def PlaceOrder(request):
 
 @csrf_exempt
 def Success(request):
-
     if request.method == "POST":
         a = request.POST
         order_id = ""
