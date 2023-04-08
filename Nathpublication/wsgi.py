@@ -1,5 +1,5 @@
 """
-WSGI config for Nathpublication project.
+WSGI config for Nathpublication Nathpublication.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 

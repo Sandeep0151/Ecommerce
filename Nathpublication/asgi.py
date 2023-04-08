@@ -1,5 +1,5 @@
 """
-ASGI config for Nathpublication project.
+ASGI config for Nathpublication Nathpublication.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
