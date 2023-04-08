@@ -48,7 +48,7 @@ urlpatterns = [
     path('checkout/',views.Checkout,name='checkout'),
     path('cart/placeorder/',views.PlaceOrder,name='placeorder'),
     path('success/',views.Success,name='success'),
-
+    path('terms&conditions/',views.Terms_Conditions ,name='t&c')
 
 
 ] +static(settings.MEDIA_URL,document_root = settings.MEDIA_ROOT)

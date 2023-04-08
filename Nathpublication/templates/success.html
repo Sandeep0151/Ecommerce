@@ -4,8 +4,14 @@
 {% block content %}
 
 
-<h1>this is success page</h1>
+
+<div class="container" style="float-right">
+<img src="{% static 'assets/img/success.jpg' %}">
+<h3>Thank You </h3>
+    <a class="btn btn-success" href="{% url 'home' %}">Continue Shopping</a>
 
 
+
+</div>
 
 {% endblock %}

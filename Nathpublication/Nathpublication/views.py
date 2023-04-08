@@ -377,3 +377,5 @@ def Search(request):
 
 
 
+def Terms_Conditions(request):
+    return render(request,'t&c.html')
