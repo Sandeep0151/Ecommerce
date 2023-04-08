@@ -2,7 +2,7 @@
 {% block content %}
 {% load static %}
 
-
+{% csrf_token %}
  <!-- page-banner-area-start -->
         <div class="page-banner-area page-banner-height-2" data-background="{% static 'assets/img/banner/page-banner-4.jpg' %}">
             <div class="container">
@@ -53,7 +53,7 @@
 
                             <form action="{% url 'handlelogin' %}" method="post">
                                 {% csrf_token %}
-                                <label for="name">Username or email address  <span>*</span></label>
+                                <label for="name">Username<span>*</span></label>
                                 <input id="name" type="text" placeholder="Enter Username" name="username">
                                 <label for="pass">Password <span>*</span></label>
                                 <input id="pass" type="password" placeholder="Enter password..." name="password">
