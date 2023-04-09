@@ -144,7 +144,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 from ckeditor.configs import DEFAULT_CONFIG
 
-CKEDITOR_UPLOAD_PATH = "Media/uploads/"
+CKEDITOR_UPLOAD_PATH = "media/uploads/"
 CKEDITOR_IMAGE_BACKEND = "pillow"
 CKEDITOR_THUMBNAIL_SIZE = (300, 300)
 CKEDITOR_IMAGE_QUALITY = 40
